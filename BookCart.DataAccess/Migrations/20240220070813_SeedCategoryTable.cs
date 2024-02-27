@@ -4,7 +4,7 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace BookCartWeb.Migrations
+namespace BookCart.DataAccess.Data
 {
     /// <inheritdoc />
     public partial class SeedCategoryTable : Migration

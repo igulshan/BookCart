@@ -1,9 +1,9 @@
-﻿using BookCartWeb.Models;
+﻿using BookCart.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BookCartWeb.Data
+namespace BookCart.DataAccess.Data
 {
-	public class ApplicationDbContext:DbContext
+    public class ApplicationDbContext:DbContext
 	{
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base(options)
         {

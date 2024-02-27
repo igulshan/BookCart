@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace BookCartWeb.Migrations
+namespace BookCart.DataAccess.Data
 {
     /// <inheritdoc />
     public partial class initialmigration : Migration

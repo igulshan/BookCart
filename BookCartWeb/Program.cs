@@ -1,4 +1,4 @@
-using BookCartWeb.Data;
+using BookCart.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
